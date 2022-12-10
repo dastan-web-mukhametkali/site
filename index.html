@@ -1,92 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab 11 Calculate</title>
-    <link rel="stylesheet"  href="style.css">
-    
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale =1.0 ">
+<title>Online library</title>
+<link rel="stylesheet"  href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<header>
+<div class="header">
+<div class="container">
+<div class="navbar">
+	<div class="logo">
+		<img src="https://medprosvita.com.ua/wp-content/uploads/2015/09/24.jpg" style="width: 125px;">
+	</div>
+	<nav>
+	<ul id="MenuItems">
+		<li> <a href="">Үй</a></li>
+		<li> <a href="">Кітаптар</a></li>
+		<li> <a href=""></a></li>
+		<li> <a href="">Контакт</a></li>
+		<li> <a href="">Аккаунт</a></li>
+		<li> <a href="registration.html">Тіркелу</a></li>
+		<li> <a href="login.html">Кіру</a></li>
+	</ul>
+	</nav>
+	<img src="" width="30px" height="30px">
+	<img src="" class="menu-icon" onclick="menutoggle()">
+</div>
+<div class="row">
+	<div class="col-2">
+		<h1>Бізде кітаптың көптеген түрлері бар !</h1>
+		<p>Сіз бізден өзіңіз іздеген,қызығып,оқығыңыз келіп жүрген барлық кітапты таба аласыздар.<br> Кітап білім бұлағы  <br>Білім өмір шырағы</p>
+		<a href="" class="btn">Мында басыңыз &#10140;</a>
+	</div>
+	<div class="col-2">
+		<img src="https://loveopium.ru/content/2017/06/library/00.jpg">
+	</div>
+</div>
+ </div>
+</div>
+<!---- Таңдаулы санат---->
+<div class="categories">
+	<div class="small-container">
+		<div class="row">
+		<div class="col-3">
+			<img src="https://fsd.kopilkaurokov.ru/uploads/user_file_5466f85cbbe0f/riefierat-knigha-istochnik-znanii-i-dukhovnogho-oboghashchieniia_1.png">
+		</div>
+		<div class="col-3">
+			<img src="http://novostiliteratury.ru/wp-content/uploads/2018/08/olimpiada_0.jpeg">
+		</div>
+		<div class="col-3">
+			<img src="https://woman-gu.ru/wp-content/uploads/2020/03/glow.jpg">
+		</div>
+		<div class="col-3"></div>
+	</div>
+	</div>
+</div>
+<!---- Таңдаулы табарлар---->
+<div class="small-container">
+	<h2 class="title">Біз ұсынатын кітаптар</h2>
+	<div class="row">
+		<div class="col-4">
+			<img src="https://sn.kz/uploads/news/2020/09/24/5f6c497819dd0071492090.jpg">
+			<h4> Абай жолы   </h4>
+			<div class="rating">
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>18 000 тенге</p>
+				</div>
+				<!-----Екінші сурет ---->
+				<div class="col-4">
+			<img src="https://cdn.f.kz/prod/937/936421_550.jpg">
+			<h4> Бай әке,кедей әке </h4>
+			<div class="rating">
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star-half-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>20 000 тенге</p>
+				</div>
+				<!-----Үшінші сурет ---->
+				<div class="col-4">
+			<img src="https://hprosmen.ru/sites/hprosmen.ru/files/styles/book_zoom/public/book/2017/08/119871/garri_potter._uomplekt_iz_8_knig.png?itok=6o1vZsDq">
+			<h4> Гарри Поттер </h4>
+			<div class="rating">
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>20000 тенге</p>
+				</div>
+				<!-----Төртінші сурет ---->
+				<div class="col-4">
+			<img src="https://цены-и-отзывы.рф/wp-content/uploads/2018/10/Зима-близко-средневековый-мир-Игры-престолов.jpg">
+			<h4> Қыс жақын </h4>
+			<div class="rating">
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>15 000 тенге</p>
+				</div>
+				<!---бесінші сурет осы жерге қоссан болады ---->
 
-</header>
-    <section>
-        <div class="container">
-          
-            <div id="display"></div>
-            <div class="buttons">
-                <div class="button">C</div>
-                <div class="button">/</div>
-                <div class="button">*</div>
-                <div class="button">&larr;</div>
-                <div class="button">7</div>
-                <div class="button">8</div>
-                <div class="button">9</div>
-                <div class="button">-</div>
-                <div class="button">4</div>
-                <div class="button">5</div>
-                <div class="button">6</div>
-                <div class="button">+</div>
-                <div class="button">1</div>
-                <div class="button">2</div>
-                <div class="button">3</div>
-                <div class="button">.</div>
-                <div class="button">(</div>
-                <div class="button">0</div>
-                <div class="button">)</div>
-                <div id="equal" class="button">=</div>
-            </div>
-           
-        </div>
-        <div id="sidebar">
+	</div>
 
-        </div>
-        <div id="footer">
-            
-        </div>
-    </section>
-    <div id='clock'>Тут будет текущее время</div> <br>
-    <canvas id='myCanvas'></canvas></div>
-    <script>
-   let display = document.getElementById('display');
-   let buttons = Array.from(document.getElementsByClassName('button'));
-   buttons.map( button => {
-    button.addEventListener('click', (e) => {
-        switch(e.target.innerText){
-            case 'C':
-                display.innerText = '';
-                break;
-            case '=':
-                try{
-                    display.innerText = eval(display.innerText);
-                } catch {
-                    display.innerText = "Error"
-                }
-                break;
-            case '←':
-                if (display.innerText){
-                   display.innerText = display.innerText.slice(0, -1);
-                }
-                break;
-            default:
-                display.innerText += e.target.innerText;
-        }
-    });
-});
+	<!-----Басқа бет екінші ряд бірінші қатар --------->
 
+	<h2 class="title">Жаңа кітаптар</h2>
+<div class="row">
+		<div class="col-4">
+			<img src="https://ledysoveti.ru/wp-content/uploads/2020/03/ne-tupi-dzhen-sinsero.jpg">
+			<h4> Не тупи  </h4>
+			<div class="rating">
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>18 000 тенге</p>
+				</div>
+				<!-----Екінші сурет ---->
+				<div class="col-4">
+			<img src="https://libs.ru/book/477/cover_477969.jpg">
+			<h4> Психология развития </h4>
+			<div class="rating">
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star-half-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>20 000 тенге</p>
+				</div>
+				<!-----Үшінші сурет ---->
+				<div class="col-4">
+			<img src="https://libs.ru/book/982/cover_982933_big.jpg">
+			<h4> Бездомный </h4>
+			<div class="rating">
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>20000 тенге</p>
+				</div>
+				<!-----Төртінші сурет ---->
+				<div class="col-4">
+			<img src="https://libs.ru/book/978/cover_978083_big.jpg">
+			<h4>Ход царем </h4>
+			<div class="rating">
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>15 000 тенге</p>
+				</div>
+				<!--- Басқа бет екінші ряд Екінші қатар ---->
 
-window.onload = function(){
-   window.setInterval(
-	function(){
-	    var d = new Date();
-	    document.getElementById("clock").innerHTML = d.toLocaleTimeString();
-	}
-  , 1000);
-}
-</script>
-	 
+	</div>
+	<div class="row">
+		<div class="col-4">
+			<img src="https://libs.ru/book/982/cover_982783_big.jpg">
+			<h4>  Угол атаки </h4>
+			<div class="rating">
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>10 000 тенге</p>
+				</div>
+				<!-----Екінші сурет ---->
+				<div class="col-4">
+			<img src="https://libs.ru/book/982/cover_982808_big.jpg">
+			<h4> Все как у людей </h4>
+			<div class="rating">
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star-half-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>15 000 тенге</p>
+				</div>
+				<!-----Үшінші сурет ---->
+				<div class="col-4">
+			<img src="https://libs.ru/book/982/cover_982780_big.jpg">
+			<h4> Детская психология </h4>
+			<div class="rating">
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>20000 тенге</p>
+				</div>
+				<!-----Төртінші сурет ---->
+				<div class="col-4">
+			<img src="https://libs.ru/book/981/cover_981590_big.jpg">
+			<h4>  Метод глебовой </h4>
+			<div class="rating">
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star" ></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>15 000 тенге</p>
+				</div>
+				<!---бесінші сурет осы жерге қоссан болады ---->
 
+	</div>
+</div>
+<!------Ұсыныс---->
+<div class="offer">
+	<div class="small-container">
+		<div class="row">
+		<div class="col-2">
+			<img src="https://cdn.f.kz/prod/1540/1539578_550.jpg" class="offer-img">
+		</div>
+		<div class="col-2">
+			<p>Сапалы кітаптар </p>
+			<h1>Сипаттама </h1>
+			<small>«Абай жолы» - Мұхтар Әуезовтың әлемге әйгілі тарихи романдар топтамасы - қазақ халқының тұңғыш эпопеясы. 1-кітабы 1942, 2-сі 1947, 3-сі 1952, 4-томы 1956 ж. жарыққа шықты.
+
+Эпопеяның «Абай» атанған алғашқы екі кітабына КСРО Мемлекеттік сыйлығы (1949), «Абай жолының» тұтас төрт томына Лениндік сыйлық (1959) берілді.</small>
+		<a href="" class="btn">Сатып алу &#8594;</a>
+		</div>
+		</div>
+	</div>
+</div>
+<!-----Brands--->
+<div class="Brands">
+	<div class="small-container">
+		<div class="row">
+			<div class="col-5">
+				<img src="images/logo-godrej.png">
+			</div>
+			<div class="col-5">
+				<img src="images/logo-oppo.png">
+			</div>
+			<div class="col-5">
+				<img src="images/logo-coca-cola.png">
+			</div>
+			<div class="col-5">
+				<img src="images/logo-paypal.png">
+			</div>
+			<div class="col-5">
+				<img src="images/logo-philips.png">
+			</div>
+		</div>
+	</div>
+</div>
+
+<!------footer---->
+
+<div class="footer">
+	<div class="container">
+		<div class="row">
+
+		<div class="footer-col-1">
+			<h3> Біздің бағдарламаны жүктеп алыңыз</h3>
+			<p> Android және ios телефонына арналған қолбанбаны жүктеп алыңыз</p>
+			<div class="app-logo" >
+				<img src="images/play-store.png">
+				<img src="images/app-store.png">
+			</div>
+		</div>
+		<div class="footer-col-2">
+			<img src="images/logo-white.png">
+			<p> Біздің мақсатымыз жақсы сапалы аяқ киімдерді тұрақты түрде көпшілікке қол жетімді ету </p>
+		</div>
+		<div class="footer-col-3">
+			<h3>Қажетті сілтемелер</h3>
+			<ul>
+			<li>Талон</li>
+			<li>Бағдарлама</li>
+			<li>Тауарды қайтару шарты</li>
+			<li>Ұqымға қосылу</li>
+			<li>Тел:87789982968</li>
+			</ul>
+		</div>
+		<div class="footer-col-4">
+			<h3>Бізге жазылыңыздар</h3>
+			<ul>
+			<li>Facebook</li>
+			<li>Twitter</li>
+			<li>Instagram</li>
+			<li>Youtube</li>
+			</ul>
+		</div>
+
+		</div>
+	</div>
+</div>
+<!-----Js for toggle menu---->
+<script>
+	var MenuItems =Document.getElementbyId("MenuItems");
+ MenuItems.style.maxHeight = "0px;
+ function menutoggle(){
+ 	if(MenuItems.style.maxHeight =+ "0px;)
+ 	{
+ 		MenuItems.style.maxHeight="200px"
+ 	}
+ 	else
+ 	{
+ 		MenuItems.style.maxHeight = "0px;
+ 	}
+ }
+ </script>
 </body>
 </html>
