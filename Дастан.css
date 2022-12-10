@@ -1,0 +1,76 @@
+body{
+    background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-03/1614857438_147-p-fon-okeana-199.jpg');
+    filter:saturate(200%);
+    color: #ffffff;
+}
+
+
+.filterDiv {
+    float: left;
+    background-color: #2196F3;
+    color: #ffffff;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+  
+  .container {
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  
+  /* Стиль кнопок */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+  .Das{
+    position: absolute;
+    top: 11%;
+    left: 27%;
+
+  }
+  img{
+    filter: blur(100%);
+
+  }
+  .Das img{
+    height: 8%;
+    width: 13%;
+    filter: blur(100%);
+  }
+  .Das img:hover{
+    filter: saturate(200%);
+  }
+  .Dastan{
+    position: absolute;
+    top: 11%;
+    right: 0;
+
+  }
+  .Dastan img{
+    height: 25%;
+    width: 30%;
+    filter: grayscale(100%);
+  }
+  .Dastan img:hover{
+    filter: saturate(200%);
+  }
